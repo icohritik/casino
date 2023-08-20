@@ -92,12 +92,16 @@ int main()
 	cout<<"Congratulations ! you win "<<endl;
 	cout<<"You win $"<<deposit*10<<endl;
 	amount=amount+deposit*10;
+	  cout<<name<<" , "<<" you have "<<amount<<"$"<<endl;
+
  }
  else
  {
 	cout<<"Sorry ";
 	cout<<"You lose $"<<deposit<<endl;
- amount=amount-deposit;	
+         amount=amount-deposit;	
+	  cout<<name<<" , "<<" you have "<<amount<<"$"<<endl;
+
  }
  cout<<"Would you like to play again y/n 		:		";
  cin>>input;
